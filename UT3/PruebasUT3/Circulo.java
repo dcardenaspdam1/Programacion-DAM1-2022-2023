@@ -28,7 +28,7 @@ public class Circulo
     public void setRadio(double queRadio)    {
         radio = queRadio;
     }
-    
+
     /**
      *  calcular el área
      */
@@ -36,23 +36,23 @@ public class Circulo
         double area = Math.PI * radio * radio; // area es una variable local
         return area;
     }
-    
-     /**
+
+    /**
      *  calcular el área
      */
     public double calcularAreaV2()    {
         return Math.PI * radio * radio; 
-        
+
     }
-    
-      /**
+
+    /**
      *  calcular el perímetro
      */
     public double calcularPerimetro()    {
         return 2 * Math.PI * radio; 
-        
+
     }
-    
+
     /**
      *  mostrar en pantalla los datos del círculo
      */
@@ -61,6 +61,13 @@ public class Circulo
         System.out.println("Radio: " + radio);
     }
 
-    
+    /**
+     * Representación textual del círculo
+     */
+    public String toString() {
+        return "Datos del círculo\n" +
+        "Radio: " + radio + "\n";
+
+    }
 
 }

@@ -48,7 +48,15 @@ public class Estudiante
             "\nHa aprobado? : " +  (nota >= 5));
     }
 
-     
+    /**
+     * Representación textual del estudiante
+     */
+    public String toString() {
+        return "Nombre : " + nombre +
+        "\nNota : " + nota +
+        "\nHa aprobado? : " +  (nota >= 5);
+
+    }
 
 
 }

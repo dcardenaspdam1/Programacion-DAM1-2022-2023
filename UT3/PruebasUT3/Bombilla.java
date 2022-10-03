@@ -38,14 +38,14 @@ public class Bombilla
         estado = !estado;
     }
 
-     /**
+    /**
      *  accesor
      */
     public boolean estaEncendida()    {
         return estado;
 
     }
-    
+
     /**
      *  accesor
      */
@@ -53,7 +53,6 @@ public class Bombilla
         return !estado;
     }
 
-    
     /**
      *  mostrar en pantalla los datos de la bombilla
      */
@@ -62,4 +61,16 @@ public class Bombilla
         System.out.println("Potencia: " + potencia);
         System.out.println("Estado (encendida?): " + estado);
     }
+
+    /**
+     * Representación textual de la bombilla
+     */
+    public String toString() {
+        return "Datos de la bombilla\n" + 
+                "Potencia: " + potencia + "\n" + 
+                "Estado (encendida?): " + estado + "\n";
+
+    }
+
+    
 }
