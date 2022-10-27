@@ -40,4 +40,14 @@ public class DemoCuadrado
         cuadrado = new Cuadrado(punto, 12.7);
 
     }
+    
+     /**
+     * 
+     */
+    public void demoConstructor4() {
+        Cuadrado otro = new Cuadrado(new Punto(10, 20), 8);  
+        cuadrado = new Cuadrado(otro);
+        System.out.println(cuadrado.toString());
+
+    }
 }
