@@ -1,0 +1,12 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold; 
+}
+.button{
+    -fx-background-color:  burlywood  ;
+     
+}
+#panelNorte {
+    -fx-background-color:  black ;
+}
