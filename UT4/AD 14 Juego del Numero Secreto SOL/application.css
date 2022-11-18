@@ -1,0 +1,25 @@
+.root {
+	-fx-font-size: 13px;
+	-fx-font-weight: bold;
+}
+.button{
+	-fx-background-color:  burlywood  ;
+	 
+}
+ 
+.textArea {
+	-fx-font-size: 14px;
+	-fx-font-weight: normal;
+}
+.label {
+	-fx-alignment: center-right ;
+}
+#norte{
+	-fx-background-color:  blanchedalmond   ;
+	-fx-padding: 1;
+	 
+}
+#btnAyuda{
+	-fx-background-color:  blanchedalmond   ;
+	 
+}
